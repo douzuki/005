@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Algebraic Expressions",
-  "body": " Algebraic Expressions  Term A term is either a single number (called a constant term ) or the product of a number and one or more variables. The number is called the coefficient of the term.  Combining like terms Two terms are called like terms if they have identical variable parts, which means that the terms must contain the same variables raised to the same exponents. To add\/subtract like terms, add\/subtract their coefficients and keep the same variable parts.  Distributive property If , , and are numbers, then  Simplified polynomial A polynomial is simplified if the terms are written in decreasing or increasing order of their powers of and no unnecessary parentheses, coefficients, signs, or powers are used.  "
+  "body": " Algebraic Expressions  Term A term is either a single number (called a constant term ) or the product of a number and one or more variables. The number is called the coefficient of the term.  Combining like terms Two terms are called like terms if they have identical variable parts, which means that the terms must contain the same variables raised to the same exponents. To add\/subtract like terms, add\/subtract their coefficients and keep the same variable parts.  Distributive property If , , and are numbers, then  Simplified polynomial A polynomial is simplified if the terms are written in decreasing or increasing order of their powers of and no unnecessary parentheses, coefficients, signs, or powers are used.     Not simplified  Simplified     x + x^2 + 1   x^2 + x + 1     x^2 + 0*x + 1   x^2 + 1     x^2 + x^1 + 1   x^2 + x + 1     x^2 + (-2)*x   x^2 - 2*x     +2*x + 1   2*x + 1     "
 },
 {
   "id": "p-15",
@@ -208,18 +208,45 @@ var ptx_lunr_docs = [
   "body": "Simplified polynomial "
 },
 {
-  "id": "linear-equations",
+  "id": "table-1",
+  "level": "2",
+  "url": "algebraic-expressions.html#table-1",
+  "type": "Table",
+  "number": "1.4.1",
+  "title": "",
+  "body": "   Not simplified  Simplified     x + x^2 + 1   x^2 + x + 1     x^2 + 0*x + 1   x^2 + 1     x^2 + x^1 + 1   x^2 + x + 1     x^2 + (-2)*x   x^2 - 2*x     +2*x + 1   2*x + 1    "
+},
+{
+  "id": "solving-equations",
   "level": "1",
-  "url": "linear-equations.html",
+  "url": "solving-equations.html",
   "type": "Section",
   "number": "2.1",
-  "title": "Linear Equations",
-  "body": " Linear Equations  Linear  "
+  "title": "Solving Equations",
+  "body": " Solving Equations  Linear  "
 },
 {
   "id": "p-19",
   "level": "2",
-  "url": "linear-equations.html#p-19",
+  "url": "solving-equations.html#p-19",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Linear "
+},
+{
+  "id": "clearing-fractions",
+  "level": "1",
+  "url": "clearing-fractions.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Clearing Fractions",
+  "body": " Clearing Fractions  Linear  "
+},
+{
+  "id": "p-20",
+  "level": "2",
+  "url": "clearing-fractions.html#p-20",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
