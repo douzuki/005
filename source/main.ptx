@@ -90,6 +90,44 @@
         <p><term>Combining like terms</term>  Two terms are called <em>like terms</em> if they have identical variable parts, which means that the terms must contain the same variables raised to the same exponents. To add/subtract like terms, add/subtract their coefficients and keep the same variable parts.</p>
         <p><term>Distributive property</term>  If <m>a</m>, <m>b</m>, and <m>c</m> are numbers, then <me>a\cdot (b+c)=a\cdot b+a\cdot c</me></p>
         <p><term>Simplified polynomial</term>  A polynomial is simplified if the terms are written in decreasing or increasing order of their powers of <m>x</m>and no unnecessary parentheses, coefficients, signs, or powers are used.</p>
+        <table>
+          <tabular halign="center">
+          <row header="yes" bottom="medium">
+          <cell right="minor" colspan="2">Not simplified</cell>
+          <cell colspan="2">Simplified</cell>
+          </row>
+          <row>
+          <cell><m>x+x^2+1</m></cell>
+          <cell right="minor"><cd>x + x^2 + 1</cd></cell>
+          <cell><m>x^2+x+1</m></cell>
+          <cell><cd>x^2 + x + 1</cd></cell>
+          </row>
+          <row>
+          <cell><m>x^2+0x+1</m></cell>
+          <cell right="minor"><cd>x^2 + 0*x + 1</cd></cell>
+          <cell><m>x^2+1</m></cell>
+          <cell><cd>x^2 + 1</cd></cell>
+          </row>
+          <row>
+          <cell><m>x^2+x^1+1</m></cell>
+          <cell right="minor"><cd>x^2 + x^1 + 1</cd></cell>
+          <cell><m>x^2+x+1</m></cell>
+          <cell><cd>x^2 + x + 1</cd></cell>
+          </row>
+          <row>
+          <cell><m>x^2+(-2)x</m></cell>
+          <cell right="minor"><cd>x^2 + (-2)*x</cd></cell>
+          <cell><m>x^2-2x</m></cell>
+          <cell><cd>x^2 - 2*x</cd></cell>
+          </row>
+          <row>
+          <cell><m>+2x+1</m></cell>
+          <cell right="minor"><cd>+2*x + 1</cd></cell>
+          <cell><m>2x+1</m></cell>
+          <cell><cd>2*x + 1</cd></cell>
+          </row>
+          </tabular>
+          </table>
       </section>
 
     </chapter>
@@ -97,8 +135,13 @@
     <chapter xml:id="linear-equations-and-inequalities">
       <title>Solving Linear Equations and Inequalities</title>
 
-      <section xml:id="linear-equations">
-        <title>Linear Equations</title>
+      <section xml:id="solving-equations">
+        <title>Solving Equations</title>
+        <p><term>Linear</term></p>
+      </section>
+
+      <section xml:id="clearing-fractions">
+        <title>Clearing Fractions</title>
         <p><term>Linear</term></p>
       </section>
 
