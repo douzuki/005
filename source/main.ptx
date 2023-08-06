@@ -12,15 +12,15 @@
   </docinfo>
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <title>Math 005</title>
+    <subtitle>Algebra</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
+          <personname></personname>
+          <department>Department of Mathematics</department>
+          <institution>The University of Scranton</institution>
         </author>
         <date>
           <today />
@@ -46,16 +46,64 @@
       </colophon>
     </frontmatter>
 
-    <chapter xml:id="chapter-title">
-      <title>Chapter title</title>
+    <chapter xml:id="arithmetic">
+      <title>Arithmetic</title>
 
-      <section xml:id="section-title">
-        <title>Section title</title>
-        <p>Hello</p>
+      <section xml:id="arithmetic-and-absolute-value">
+        <title>Arithmetic and Absolute Value</title>
+        <p><term>Absolute value</term> If <m>a</m> is a real number, the <em>absolute value</em> (or <em>magnitude</em>) of <m>a</m>, denoted <m>\lvert a\rvert</m>, is the distance between <m>a</m> and zero on the number line. If <m>a</m> and <m>b</m> are real numbers, the absolute value of their difference, denoted <m>\lvert a-b\rvert</m>, is the distance between <m>a</m> and <m>b</m> on the number line.</p>
+        <p><term>Adding numbers with like signs</term> To add two real numbers with like signs (both positive or both negative), add their magnitudes (absolute values), then prefix their common sign.</p>
+
+        <p><term>Adding numbers with unlike signs</term> To add two real numbers with unlike signs (one positive and one negative), subtract the number with the smaller magnitude (absolute value) from the number with the larger magnitude, then prefix the sign of the number with the larger magnitude.</p>
+        <p><term>Subtracting</term> Subtracting <m>b</m> is identical to adding the opposite of <m>b</m>: <me>a-b=a+(-b)</me></p>
+        <p><term>Multiplying and dividing numbers with like signs</term> The product and quotient of two real numbers with like signs are positive.</p>
+        <p><term>Multiplying and dividing numbers with unlike signs</term> The product and quotient of two real numbers with unlike signs are negative.</p>
+        <p><term>Exponents</term> If <m>a</m> is a real number and <m>n</m> is a whole number, then
+        <me>\displaystyle a^n=\underbrace{a\cdot a\cdot a\cdot\cdots\cdot a}_{n \text{ times}}</me></p>
+        <p><term>Odd or even exponents</term> A negative real number raised to an even exponent is positive, while a negative real number raised to an odd exponent is negative.</p>
+      </section>
+
+      <section xml:id="order-of-operations">
+        <title>Order of Operations</title>
+        <p><term>Order of operations</term> When evaluating expressions, proceed in the following order.
+          <ol>
+          <li>Evaluate expressions contained in parentheses first. If parentheses are nested, evaluate the expression in the innermost pair of parentheses first.</li>
+          <li>Evaluate all exponents that appear in the expression.</li>
+          <li>Perform all multiplications and divisions in the order that they appear in the expression, moving left to right</li>
+          <li>Perform all additions and subtractions in the order that they appear in the expression, moving left to right.</li>
+          </ol>
+        </p>
+      </section>
+
+      <section xml:id="rational-number">
+        <title>Rational Numbers</title>
+        <p><term>Rational numbers</term> Any number that can be expressed in the form <m>a/b</m>, where <m>a</m>and <m>b</m>are integers, <m>b\neq 0</m>, is called a <em>rational number</em>. The set of rational numbers is denoted by <m>\mathbb{Q}</m>.</p>
+        <p><term>Lowest Terms</term> A fraction <m>a/b</m>is said to be <em>reduced</em> or <em>in lowest terms</em> if and only if <m>\gcd(a,b) = 1</m>and <m>b\ge 2</m>.</p>
+        <p><term>Multiplying Fractions</term>  Simply multiply numerators and multiply denominators: <me>\frac{a}{b}\cdot\frac{c}{d}=\frac{ac}{bd}</me> Canceling a factor in the numerator for an identical factor in the denominator may simplify the calculation.</p>
+        <p><term>Dividing Fractions</term> Dividing by a number is the same as multiplying by its reciprocal: <me> \frac{a}{b}\div\frac{c}{d}=\frac{a}{b}\cdot\frac{d}{c}</me></p>
+        <p><term>Adding/Subtracting Fractions</term> If two fractions have a denominator in common, add/subtract the numerators and place the result over the common denominator: <me>\frac{a}{c}+\frac{b}{c}=\frac{a+b}{c}\qquad\text{and}\qquad\frac{a}{c}-\frac{b}{c}=\frac{a-b}{c}</me> If the fractions do not share a common denominator, rewrite the fractions so that they do.</p>
+      </section>
+
+      <section xml:id="algebraic-expressions">
+        <title>Algebraic Expressions</title>
+        <p><term>Term</term> A <em>term</em> is either a single number (called a <em>constant term</em>) or the product of a number and one or more variables. The number is called the <em>coefficient</em> of the term.</p>
+        <p><term>Combining like terms</term>  Two terms are called <em>like terms</em> if they have identical variable parts, which means that the terms must contain the same variables raised to the same exponents. To add/subtract like terms, add/subtract their coefficients and keep the same variable parts.</p>
+        <p><term>Distributive property</term>  If <m>a</m>, <m>b</m>, and <m>c</m> are numbers, then <me>a\cdot (b+c)=a\cdot b+a\cdot c</me></p>
+        <p><term>Simplified polynomial</term>  A polynomial is simplified if the terms are written in decreasing or increasing order of their powers of <m>x</m>and no unnecessary parentheses, coefficients, signs, or powers are used.</p>
       </section>
 
     </chapter>
 
+    <chapter xml:id="linear-equations-and-inequalities">
+      <title>Solving Linear Equations and Inequalities</title>
+
+      <section xml:id="linear-equations">
+        <title>Linear Equations</title>
+        <p><term>Linear</term></p>
+      </section>
+
+    </chapter>
+    
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
 
