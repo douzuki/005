@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "colophon-1",
+  "id": "frontmatter",
   "level": "1",
-  "url": "colophon-1.html",
-  "type": "Colophon",
+  "url": "frontmatter.html",
+  "type": "Front Matter",
   "number": "",
-  "title": "Colophon",
-  "body": "   example.org   https:\/\/example.org   copyright  "
+  "title": "Front Matter",
+  "body": "            "
 },
 {
   "id": "arithmetic-and-absolute-value",
@@ -223,7 +223,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Solving Equations",
-  "body": " Solving Equations  Linear  "
+  "body": " Solving Equations  Linear equation A linear equation is an equation that can be written in the form  Quadratic equation A quadratic equation is an equation that can be written in the form  Solution of an equation A solution of an equation is a numerical value that satisfies the equation. That is, when the variable in the equation is replaced by the solution, a true statement results.  Both sides of an equation Adding or subtracting the same quantity to both sides of an equation does not change the solution set. Multiplying or dividing both sides of an equation by a nonzero quantity does not change the solution set.  Strategy for solving for in a linear equation In solving a linear equation for ,  Simplify both sides  Move all terms to one side of the other equation and constants to the other side.  Divide both sides by the coefficient of .    "
 },
 {
   "id": "p-19",
@@ -232,7 +232,43 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Linear "
+  "body": "Linear equation "
+},
+{
+  "id": "p-20",
+  "level": "2",
+  "url": "solving-equations.html#p-20",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quadratic equation "
+},
+{
+  "id": "p-21",
+  "level": "2",
+  "url": "solving-equations.html#p-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Solution of an equation "
+},
+{
+  "id": "p-22",
+  "level": "2",
+  "url": "solving-equations.html#p-22",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Both sides of an equation "
+},
+{
+  "id": "p-23",
+  "level": "2",
+  "url": "solving-equations.html#p-23",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Strategy for solving for in a linear equation "
 },
 {
   "id": "clearing-fractions",
@@ -241,25 +277,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Clearing Fractions",
-  "body": " Clearing Fractions  Linear  "
+  "body": " Clearing Fractions  Simplifying complex fractions To clear fractions from a complex fraction, multiply the numerator and denominator by the least common denominator and cancel.  Solving equations with fractions To clear fractions from an equation, multiply both sides of the equation by the least common denominator and cancel.  Solving a linear equation in one variable   Clear fractions Multiply each term (on both sides of the equation) by the LCD of the denominators (or the product of the denominators)  Simplify both sides  Move all terms to one side of the other equation and constants to the other side.  Divide both sides by the coefficient of .    "
 },
 {
-  "id": "p-20",
+  "id": "p-24",
   "level": "2",
-  "url": "clearing-fractions.html#p-20",
+  "url": "clearing-fractions.html#p-24",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Linear "
+  "body": "Simplifying complex fractions "
 },
 {
-  "id": "colophon-2",
-  "level": "1",
-  "url": "colophon-2.html",
-  "type": "Colophon",
+  "id": "p-25",
+  "level": "2",
+  "url": "clearing-fractions.html#p-25",
+  "type": "Paragraph (with a defined term)",
   "number": "",
-  "title": "Colophon",
-  "body": " This book was authored in PreTeXt .  "
+  "title": "",
+  "body": "Solving equations with fractions "
+},
+{
+  "id": "p-26",
+  "level": "2",
+  "url": "clearing-fractions.html#p-26",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Solving a linear equation in one variable Clear fractions "
 }
 ]
 
