@@ -11,7 +11,7 @@
     </latex-image-preamble>
   </docinfo>
 
-  <book xml:id="my-great-book">
+  <book xml:id="math-005">
     <title>Math 005</title>
     <subtitle>Algebra</subtitle>
 
@@ -19,15 +19,15 @@
       <titlepage>
         <author>
           <personname></personname>
-          <department>Department of Mathematics</department>
-          <institution>The University of Scranton</institution>
+          <department></department>
+          <institution></institution>
         </author>
         <date>
           <today />
         </date>
       </titlepage>
 
-      <colophon>
+      <!--<colophon>
 
         <website>
           <name>
@@ -43,7 +43,7 @@
             This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
           </shortlicense>
         </copyright>
-      </colophon>
+      </colophon>-->
     </frontmatter>
 
     <chapter xml:id="arithmetic">
@@ -137,24 +137,43 @@
 
       <section xml:id="solving-equations">
         <title>Solving Equations</title>
-        <p><term>Linear</term></p>
+        <p><term>Linear equation</term> A <em>linear equation</em> is an equation that can be written in the form <me>ax+b=0</me></p>
+        <p><term>Quadratic equation</term> A <em>quadratic equation</em> is an equation that can be written in the form <me>ax^2+bx+c=0</me></p>
+        <p><term>Solution of an equation</term> A solution of an equation is a numerical value that satisfies the equation. That is, when the variable in the equation is replaced by the solution, a true statement results.</p>
+        <p><term>Both sides of an equation</term> Adding or subtracting the same quantity to both sides of an equation does not change the solution set. Multiplying or dividing both sides of an equation by a nonzero quantity does not change the solution set.</p>
+        <p><term>Strategy for solving for <m>x</m> in a linear equation</term> In solving a linear equation for <m>x</m>,
+          <ol>
+            <li>Simplify both sides</li>
+            <li>Move all <m>x</m> terms to one side of the other equation and constants to the other side.</li>
+            <li>Divide both sides by the coefficient of <m>x</m>.</li>
+          </ol>
+        </p>
       </section>
 
       <section xml:id="clearing-fractions">
         <title>Clearing Fractions</title>
-        <p><term>Linear</term></p>
+        <p><term>Simplifying complex fractions</term> To clear fractions from a complex fraction, multiply the numerator and denominator by the least common denominator and cancel.</p>
+        <p><term>Solving equations with fractions</term> To clear fractions from an equation, multiply both sides of the equation by the least common denominator and cancel.</p>
+        <p><term>Solving a linear equation in one variable</term>
+          <ol>
+          <li><term>Clear fractions</term> Multiply each term (on both sides of the equation) by the LCD of the denominators (or the product of the denominators)</li>
+          <li>Simplify both sides</li>
+          <li>Move all <m>x</m> terms to one side of the other equation and constants to the other side.</li>
+          <li>Divide both sides by the coefficient of <m>x</m>.</li>
+          </ol>
+        </p>
       </section>
 
     </chapter>
     
-    <backmatter xml:id="backmatter">
+    <!--<backmatter xml:id="backmatter">
       <title>Backmatter</title>
 
       <colophon>
         <p> This book was authored in <pretext />. </p>
       </colophon>
 
-    </backmatter>
+    </backmatter>-->
 
   </book>
 </pretext>
